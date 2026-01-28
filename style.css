@@ -39,6 +39,7 @@ body{
         background-color: #1A0B2E;
         padding-top: 30px;
         padding-bottom: 30px;
+        border-bottom: 1px solid #ffffff16;
     }
     nav .container{
         justify-content: space-between;
@@ -58,6 +59,7 @@ body{
     .nav-menu ul{
         gap: 50px;
         flex-wrap: wrap;
+        list-style-type: none ;
     }
     .nav-menu ul li a{
         text-decoration: none;
@@ -128,8 +130,52 @@ body{
     justify-content: center;
     gap: 15px;
     padding-top: 20px;
-
+    padding-bottom: 100px;
+}
+.banner-button .button2{
+    background: none;
+    border: 1px solid #00FF88;
+    color: #00FF88;
 }
 
-
 /* banner end */
+
+
+
+
+
+/* main start */
+
+/* about start */
+#about{
+    background-color: #1A0B2E;
+    padding-bottom: 80px;
+}
+
+.about-content{
+    text-align: center;
+    border-bottom: 1px solid #ffffff16;
+}
+.about-content h2{
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about-content p{
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 16px 223px;
+    line-height:25px;
+}
+.about-content .sub-p{
+
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 80px;
+}
+
+/* about end */
+
+
+/* main end */
